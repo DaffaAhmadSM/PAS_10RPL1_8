@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/detail_img"
+        android:layout_width="168dp"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/ic_baseline_person_24" />
+
+    <TextView
+        android:id="@+id/detail_nama_kontak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="307dp"
+        android:text="Nama"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/detail_nomor_hp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="365dp"
+        android:text="NomorHP"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
